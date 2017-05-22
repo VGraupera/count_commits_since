@@ -2,6 +2,15 @@
 
 Small ruby script to count up number of github commits by user since a given date.
 
-Example usage:
+Usage:
 
-    ruby count_commits_since.rb username password facebook/react 2016-09-01
+```
+ruby count_commits_since.rb --help
+usage: count_commits_since.rb [options]
+    -o, --organization  a github organization
+    -r, --repository    a github repository
+    -u, --username      username
+    -p, --password      password
+    -d, --date          date since
+    --help
+```

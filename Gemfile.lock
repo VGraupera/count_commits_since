@@ -12,12 +12,14 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    slop (4.4.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   octokit
+  slop
 
 BUNDLED WITH
    1.14.6
